@@ -37,9 +37,8 @@ class Graph :
             for e in edges :
                 if e.dest == dest :
                     return e
-
-    def get_edges(self, src):
-        if src in self.g:
-            return self.g[src]
-
-
+        
+    def get_neighbors_and_costs(self, node):
+        if node in self.g:
+            return [(a.dest, a.val) for a in self.g[node]]
+        return []
