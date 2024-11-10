@@ -1,0 +1,42 @@
+Assignment 2 comments:
+
+Question 1: Algorithms. 8/10 - better to express in terms of b & d.
+
+
+Question 2:
+
+eq: 5/5
+
+goal: 5/5
+
+BFS/DFS: 5/5
+
+DLS: 7/10 - you're incrementing depth every time you dequeue, which will give
+an inaccurate result. Better to make depth a member variable, and then child
+depth=parent+1
+
+tools: 10/10
+
+decomposition: 10/10
+
+Question 3:
+
+read_mars_graph: 5/5
+
+A*: 15/15
+
+count states: 2/5 - no summary table
+
+Question 4: 0/10 - I don't see this part.
+
+Question 5: 10/10
+
+-5 no submission.py
+
+77/100
+
+
+
+
+
+
